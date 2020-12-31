@@ -1,22 +1,193 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <title>Jason Redmond Portfolio</title>
 </head>
 
-<body>
-  <div class="container-fluid">
-  <h1>Welcome to my Web Page</h1>
-</div>
+<body class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <a href="#"><img class="navbar-brand" src="images/TomServo.png" width="120px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <!-- <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Blog</a>
+      <a class="nav-item nav-link" href="#">Code</a>
+    </div> -->
+  </div>
+  <h1 id="mainName">JASON REDMOND</h1>
+  </nav>
+
+  <div id="profile" class="row">
+    <div class="col">
+      <img id="profilePic" src="images/profilePic.png" width="65%">
+    </div>
+    <div id="bioText" class="col">
+      <p>Welcome to my web page!  My name is Jason Redmond, and I am an attorney transitioning into the world of programming.  While I have loved using computers since infancy, I didn't seriously consider a career in this field until recently.  I completed a rigorous <a href="https://skilldistillery.com/programs/" target="_blank">Full-Stack Development Bootcamp at Skill Distillery</a> in 2020, and am now trained in the following skills:</p>
+    <ul class="skills">
+    <li>Java/JavaEE</li>
+    <li>JavaScript / TypeScript</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JDBC</li>
+    <li>Spring Boot</li>
+    <li>JPQL</li>
+    <li>RESTful API</li>
+    <li>JSON</li>
+    <li>Git / GitHub</li>
+    <li>...and learning more every day!</li>
+    </ul>
+    <br>
+    <p>Please take a look around, and get to know me a little better.  This is an ongoing project, so visit frequently!</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <h2>BIO</h2>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <p>I am originally from Michigan, but spent the majority of my adult life in the state of Georgia.  There, I (briefly) attended Georgia Tech, received my undergraduate degree at UGA, and obtained my law degree at Mercer University.  I promptly passed the Georgia Bar, and began my adventure into adulthood.</p>
+              <p>In 2016 I finally acted on a long-standing craving for a change (and colder weather), and relocated to Colorado.  Since then, I was admitted to the Colorado Bar, and briefly continued my pursuits in law.  However, my desire for a change slowly crept into my career as well, and I ultimately walked away...</p>
+              <p>I realized I didn't like the destructive and divisive nature of my profession, and wanted a career that allowed for more collaboration and creation.  Having spoken with many of my friends in the IT industries, it became apparent to me that coding and software engineering would present me with better opportunities to utilize my legal skills for a more constructive purpose.  Furthermore, I had been inseperable from computers since I was 5, so it only made sense to pursue this route of study.</p>
+              <p>In 2020, I officially took the plunge and began my transition into computer programming.  I began dabbling in some online tutorials and classes while I researched the various coding bootcamps available to me.  I ultimately decided on <span><a href="skilldistillery.com" target="_blank">Skill Distillery</a></span>, based on the recommendations of a few friends who worked with graduates from the program.  I was also given positive feedback from other friends in the industry who felt that the curriculum offered a legitimate foundation for full-stack development.</p>
+              <p>After a few logisitical hiccups from the ongoing COVID-19 pandemic, I started my program in August 2020.  From Day 1 I was given rigorous training with daily 10-hour classes requiring constant absorption of new materials and concepts.  I readily devoured the information, always looking forward to the weekend projects that would allow me to test what I had learned.</p>
+              <p>16 weeks of hard work later, I graduated with a few full-stack projects under my belt.  <em>I. Loved. Every. Minute. Of. It.</em></p>
+              <p>Armed with this training and experience, I am now thrust again into the real world.  I look forward to the challenges ahead, and the endless opportunities to increase my knowledge.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h2>RESUME</h2>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <iframe src="images/resume122020.pdf" width="100%" height="500px">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h2>INTERESTS</h2>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+
+              <table class="table">
+
+  <tbody>
+    <tr class="football">
+      <th scope="row">College Football</th>
+      <td>
+        <ul>
+          <li><a href="https://georgiadogs.com/" target="_blank">University of Georgia</a> - My Alma Mater.  Go Dawgs!</li>
+          <li><a href="https://mgoblue.com/sports/football" target="_blank">University of Michigan</a> - I was raised on the Wolverines.</li>
+        </ul>
+    </tr>
+    <tr class="art">
+      <th scope="row">Art</th>
+      <td>
+        <ul>
+          <li>Picture Framing - My first job, one which I continued all through college.  If I see one more Thomas Kinkade print, though...</li>
+          <li><a href="https://16colo.rs/" target="_blank">ANSI</a> - This dates me, but I dabbled in art for BBSes back in the day!</li>
+        </ul>
+    </tr>
+    <tr class="cooking">
+      <th scope="row">Cooking</th>
+      <td>
+        <ul>
+          <li>Historical/Educational - <a href="https://www.foodnetwork.com/shows/good-eats" target="_blank">Good Eats</a>, <a href="https://www.youtube.com/user/jastownsendandson" target="_blank">Townsends</a>,<a href="https://www.youtube.com/channel/UCsaGKqPZnGp_7N80hcHySGQ" target="_blank"> Tasting History</a></li>
+          <li>Competitive - <a href="https://en.wikipedia.org/wiki/Iron_Chef" target="_blank">Iron Chef</a>, <a href="https://www.pbs.org/food/shows/great-british-baking-show/" target="_blank">Great British Baking Show</a></li>
+        </ul>
+    </tr>
+    <tr class="travel">
+      <th scope="row">Travel</th>
+      <td>
+        <ul>
+          <li>Road Trips - Any excuse to hit the road, and I'll take it!</li>
+          <li>¡Viva España! - I studied abroad in Madrid and Cádiz, and love speaking the language.</li>
+        </ul>
+        <tr class="gaming">
+          <th scope="row">Gaming</th>
+          <td>
+            <ul>
+              <li>Board Games</li>
+              <li>Roleplaying Games</li>
+              <li>Classic Arcade / Pinball Games</li>
+            </ul>
+        </tr>
+        <tr class="conventions">
+          <th scope="row">Conventioneering</th>
+          <td>
+            <ul>
+              <li><a href="https://www.dragoncon.org/" target="_blank">DragonCon</a></li>
+              <li><a href="https://www.gencon.com/" target="_blank">GenCon</a></li>
+              <li><a href="https://southernfriedgameroomexpo.com/" target="_blank">Southern Fried Gaming Expo(SFGE)</a></li>
+            </ul>
+        </tr>
+        <tr class="film">
+          <th scope="row">Film</th>
+          <td>
+            <ul>
+              <li>Sci-Fi / Fantasy / Horror - I'll watch anything in these genres from the late 70's to mid-80's.</li>
+              <li>B-Movies - <a href="https://www.redlettermedia.com/" target="_blank">Red Letter Media</a>, <a href="https://mst3k.com/" target="_blank">Mystery Science Theater 3000</a>, <a href="https://www.rifftrax.com/" target="_blank">RiffTrax</a></li>
+              <li>Foreign - <a href="https://www.imdb.com/name/nm0594503/?ref_=fn_al_nm_1" target="_blank">Hayao Miyazaki</a>, <a href="https://www.imdb.com/name/nm0955443/?ref_=fn_al_nm_1" target="_blank">Zhang Yimou</a>, <a href="https://www.imdb.com/name/nm0000466/?ref_=fn_al_nm_1" target="_blank">Jean-Pierre Jeunet</a></li>
+            </ul>
+        </tr>
+        <tr class="outdoors">
+          <th scope="row">Outdoors</th>
+          <td>
+            <ul>
+              <li>Camping</li>
+              <li>Gold Prospecting</li>
+            </ul>
+        </tr>
+    </tr>
+  </tbody>
+</table>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-
 </html>

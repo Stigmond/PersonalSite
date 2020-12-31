@@ -1,8 +1,138 @@
+
+.navbar {
+  background-image: linear-gradient(to right, #969cc5, white);
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+button {
+  font-family: 'Bungee', cursive;
+}
+
+h2 {
+  color: black;
+}
+
 body {
-  background-color: cyan;
+  padding-bottom: 0;
+  background-image: linear-gradient(to right, #969cc5, white)
+}
+
+li {
+  /* color: black; */
+  margin-left: 25px;
+}
+
+p {
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+th {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+#mainName {
+  margin-right: 25px;
+  font-family: 'Bungee', cursive;
+}
+
+#profilePic {
+  margin-top: 60px;
+  margin-left: 50px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+#profile {
+color: white;
+background-image: url("../images/mountains.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 50px;
 
 }
-h1 {
+
+#bioText {
   color: white;
-  font-family: fantasy;
+  font-family: 'Roboto Slab', serif;
+  text-align: justify;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.skills {
+  color: white;
+}
+
+.card-header {
+  background-image: linear-gradient(to right, #969cc5, white);
+}
+
+.card-body {
+  background-image: linear-gradient(to right, darkgrey, lightgrey, white);
+}
+
+.football {
+  color: black;
+  background-image: url("https://athlonsports.com/sites/athlonsports.com/files/collge_football_generic_2_DL_9.jpg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.art {
+  color: black;
+  background-image: url("https://ugc.futurelearn.com/uploads/images/6d/29/6d296389-73da-496c-8879-6f91fd84cd5e.png");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.cooking {
+  color: black;
+  background-image: url("https://media.cntraveler.com/photos/59baad8b56085e35b15e7622/master/pass/Bangkok_GettyImages-sb10065342aq-001.jpg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.travel {
+  color: black;
+  background-image: url("https://www.oxfordsaudia.com/wp-content/uploads/2018/07/banner-airplane-628x439.jpg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.gaming {
+  color: black;
+  background-image: url("https://media.sketchfab.com/models/2587a1630a3a4c0993032675a25d72b9/thumbnails/e4a0aab6cfac4c37b2c70b9fb19bc525/c063f1cee3364a6f89cad0afb56cb9ec.jpeg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.conventions {
+  color: black;
+  background-image: url("https://live.staticflickr.com/65535/50297812013_1b2511b095_c.jpg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.film {
+  color: black;
+  background-image: url("https://www.york.ac.uk/media/study/courses/postgraduate/tftv/Directing-clapperboard-crop.jpg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
+}
+
+.outdoors {
+  color: black;
+  background-image: url("https://cf.ltkcdn.net/camping/images/orig/243208-1600x1030-types-campfires.jpg");
+  background-size: 160px 100%;
+  background-repeat: no-repeat;
 }
