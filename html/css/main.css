@@ -83,56 +83,56 @@ padding-bottom: 50px;
 
 .football {
   color: black;
-  background-image: url("https://athlonsports.com/sites/athlonsports.com/files/collge_football_generic_2_DL_9.jpg");
+  background-image: url("../images/football.jpg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .art {
   color: black;
-  background-image: url("https://ugc.futurelearn.com/uploads/images/6d/29/6d296389-73da-496c-8879-6f91fd84cd5e.png");
+  background-image: url("../images/scream.webp");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .cooking {
   color: black;
-  background-image: url("https://media.cntraveler.com/photos/59baad8b56085e35b15e7622/master/pass/Bangkok_GettyImages-sb10065342aq-001.jpg");
+  background-image: url("../images/food.jpg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .travel {
   color: black;
-  background-image: url("https://www.oxfordsaudia.com/wp-content/uploads/2018/07/banner-airplane-628x439.jpg");
+  background-image: url("../images/airplane.jpg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .gaming {
   color: black;
-  background-image: url("https://media.sketchfab.com/models/2587a1630a3a4c0993032675a25d72b9/thumbnails/e4a0aab6cfac4c37b2c70b9fb19bc525/c063f1cee3364a6f89cad0afb56cb9ec.jpeg");
+  background-image: url("../images/d20.jpeg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .conventions {
   color: black;
-  background-image: url("https://live.staticflickr.com/65535/50297812013_1b2511b095_c.jpg");
+  background-image: url("../images/dcon.jpg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .film {
   color: black;
-  background-image: url("https://www.york.ac.uk/media/study/courses/postgraduate/tftv/Directing-clapperboard-crop.jpg");
+  background-image: url("../images/film.jpg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
 
 .outdoors {
   color: black;
-  background-image: url("https://cf.ltkcdn.net/camping/images/orig/243208-1600x1030-types-campfires.jpg");
+  background-image: url("../images/outdoors.jpg");
   background-size: 160px 100%;
   background-repeat: no-repeat;
 }
